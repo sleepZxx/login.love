@@ -76,6 +76,7 @@ footer {
     z-index: 10;
 }
 footer h1 {
+    display: none;
     font-size: 17px;
     text-decoration: none;
     font-family: Sacramento;
@@ -85,7 +86,7 @@ footer h1 {
 }
 header {
     position: fixed;
-    top: 25%;
+    top: 20%;
     left: 0%;
     width: 100%;
     display: flex;
