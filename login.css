@@ -61,30 +61,41 @@ body {
     font-size: 15px;
     margin-top: 5px;
 }
-footer h1 {
+footer {
+    position: fixed;
+    bottom: 25%;
+    left: 30%;
+    width: 100%;
     display: flex;
-    flex-grow: 1;
+    align-items: center;
+    padding-left: 20px;
+    z-index: 10;
+}
+footer h1 {
     font-size: 17px;
-    position: absolute;
     text-decoration: none;
-    bottom: 200px;
-    left: 310px;
-    transform: translateX(-50%);
     font-family: Sacramento;
     color: white;
     cursor: pointer;
+    margin: 20px 0;
+}
+header {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
 }
 header h1 {
-    display: flex;
-    flex-grow: 1;
     font-size: 25px;
     cursor: default;
-    position: absolute;
-    top: 200px;
-    left: 365px;
-    transform: translateX(-50%);
     font-family: Verdana;
     color: white;
+    margin: 20px 0;
+    text-align: center;
 }
 @keyframes gradiente {
       0% { background-position: 0% 50%; }
