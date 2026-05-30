@@ -62,23 +62,27 @@ body {
     margin-top: 5px;
 }
 footer h1 {
+    display: flex;
+    flex-grow: 1;
     font-size: 17px;
-    position: relative;
+    position: absolute;
     text-decoration: none;
-    bottom: -200px;
-    left: -150px;
-    transform: translateX(-100%);
+    bottom: 200px;
+    left: 310px;
+    transform: translateX(-50%);
     font-family: Sacramento;
     color: white;
     cursor: pointer;
 }
 header h1 {
+    display: flex;
+    flex-grow: 1;
     font-size: 25px;
     cursor: default;
-    position: relative;
-    top: -200px;
-    left: 500px;
-    transform: translateX(-100%);
+    position: absolute;
+    top: 200px;
+    left: 365px;
+    transform: translateX(-50%);
     font-family: Verdana;
     color: white;
 }
